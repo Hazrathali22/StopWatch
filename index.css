@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(173, 235, 210);
+}
+#stopwatch{
+    color: rgb(22, 22, 22);
+}
+h1{
+text-align: center;
+animation: color 2s ease-in-out infinite alternate;
+}
+@keyframes color {
+    0%{
+        color: rgb(19, 18, 18);
+    }
+    100%{
+        color: rgb(141, 140, 212);
+    }
+}
+
+#screen{
+    border:5px solid rgb(8, 40, 167);
+    border-radius: 10px;
+    /* background-color:  */
+    padding:10px;
+    box-shadow: 8px -8px 4px 8px rgb(117, 128, 6);;
+}
+.no{
+    font-size: 80px;
+    font-weight: bold;
+}
+.txt{
+    font-size:30px;
+    font-weight: bold;
+}
+#buttons{
+    margin-top: 30px;
+    text-align: center;
+}
+.button{
+    padding: 10px 30px;
+    margin:0px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    color:rgb(49, 10, 221);
+    cursor: pointer;
+}
+#start{
+    background-color: rgb(220, 236, 221);
+}
+#stop{
+    background-color: rgb(243, 230, 226);
+}
+#reset{
+    background-color: rgb(231, 219, 219);
+}
